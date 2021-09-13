@@ -47,7 +47,7 @@ function Create() {
       <div className='form-container'>
           <form  onSubmit={loadDataFromForm} className={formClass}>
               <div className='form'>
-                  <label htmlFor="note" className='form-lable'>Введите заметку</label>
+                  <label htmlFor="note" className='form-lable'>Enter your massage</label>
                   <textarea className='form-control' name="note" id="note"></textarea>
                   <button className='note-btn btn btn-primary' type='submit'>Click</button>
               </div>
@@ -57,8 +57,8 @@ function Create() {
           <div className='url-container'>
               <div className='url-link lead bg-primary p-2 text-dark bg-opacity-10'>{url}</div>
             <div>
-                <p className='url-text bg-primary p-2 text-dark bg-opacity-10'>Скопируйте URL и передайте адресату.</p>
-                <button className='btn btn-primary' onClick={() => window.location.reload()}>создать новую заметку</button>
+                <p className='url-text bg-primary p-2 text-dark bg-opacity-10'>Copy URL and send to your friend.</p>
+                <button className='btn btn-primary' onClick={() => window.location.reload()}>create new note</button>
             </div>
           </div>
             

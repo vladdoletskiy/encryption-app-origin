@@ -3,10 +3,10 @@ function Main() {
     return (
       <div className='main-container'>
             <div>
-                <a className='main-btn btn btn-outline-primary' href="/create">Создать note</a>
+                <a className='main-btn btn btn-outline-primary' href="/create">Create note</a>
             </div> 
             <div>
-                <a className='main-btn btn btn-outline-primary' href="/note">Просмотреть Create</a>
+                <a className='main-btn btn btn-outline-primary' href="/note">View note</a>
             </div> 
       </div>
     );

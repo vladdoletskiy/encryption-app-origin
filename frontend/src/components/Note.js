@@ -68,17 +68,17 @@ function Note() {
               <h4>Note:</h4>
               <div className='bg-primary p-2 text-dark bg-opacity-10 note-text'>{noteText}</div>
               <div className='note-btn'>
-                <button className="btn btn-primary" onClick={searchNote}>Смотерть еще один note</button>
+                <button className="btn btn-primary" onClick={searchNote}>One more note</button>
               </div>
           </div>
           <div className={errorClass}>
-              <p>Произошла ошибка</p>
+              <p>Error</p>
           </div>
           <div  className={formClass}>
               <form className='hash-note' onSubmit={getNote}>
-                <label htmlFor="url">введите hash заметки</label>
+                <label htmlFor="url">enter hash code</label>
                 <input  type="text" name="url" id="url" className="form-control hash-input"/>
-                <button type='submit' className="btn btn-primary">Искать Note</button>
+                <button type='submit' className="btn btn-primary">Search Note</button>
               </form>
           </div>
       </div>
