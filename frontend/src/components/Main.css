@@ -1,0 +1,10 @@
+.main-btn {
+    margin-top: 20px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

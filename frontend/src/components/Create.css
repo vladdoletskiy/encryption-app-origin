@@ -1,0 +1,56 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+ .form {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+} 
+
+.form-lable {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.note-btn {
+    margin-top: 10px;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.url-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.url-link {
+    padding: 5px;
+}
+
+@media (max-width: 520px) {
+    .url-link {
+        font-size: small;
+    }
+    .url-text {
+        font-size: small;
+    }
+}
+
+@media (max-width: 320px) {
+    .url-link {
+        font-size: 11px;
+    }
+    .url-text {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,30 @@
+.hide {
+    display: none;
+}
+
+.note-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.hash-note {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hash-input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.note-btn {
+    margin-top: 10px;
+}
+
+.note-text {
+    width: 300px;
+    padding: 10px;
+}
