@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
