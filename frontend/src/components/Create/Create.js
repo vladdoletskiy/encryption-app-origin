@@ -1,6 +1,6 @@
 import React from "react";
 import {useState} from 'react';
-import env from '../env.json';
+import env from '../../env.json';
 import './Create.css';
 
 function Create() {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import env from '../env.json';
+import env from '../../env.json';
 import './Note.css';
 
 function Note() {

@@ -1,0 +1,5 @@
+.authError {
+    color: red;
+    transition: 3s linear;
+    margin: 0;
+}
